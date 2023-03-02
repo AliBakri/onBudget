@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_navyborder" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Your Financial Planner"
+        android:textColor="#15367A"
+        android:textSize="20dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Your Email Address"
+        android:textColor="#15367A"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etLoginEmail"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_border"
+        android:hint="MobileProject2023@aust.edu.lb"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Choose a Password"
+        android:textColor="#15367A"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_border"
+        android:hint="Minimum 8 Characters"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/Continuebtn"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#C1C1C1"
+        android:enabled="false"
+        android:onClick="Verify"
+        android:stateListAnimator="@null"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="#15367A"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:cornerRadius="50dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="12dp"
+            android:background="#E3E2E2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/white"
+            android:padding="2dp"
+            android:text=" or "
+            android:textColor="#989898" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/Signupbtn"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#7CFF8C"
+        android:onClick="SignupPage"
+        android:stateListAnimator="@null"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textColor="#15367A"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:cornerRadius="50dp"/>
+
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF0000"
+        android:stateListAnimator="@null"
+        android:text="Delete Account!!"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:onClick="Delete"
+        app:cornerRadius="50dp"/>
+
+</LinearLayout>

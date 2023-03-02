@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/whitelogo"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="OnBudget"
+        android:textColor="#0E182D"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Built to Categorize your expenses"
+        android:textColor="#0E182D"
+        android:textSize="20dp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:id="@+id/getStartedbtn"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#7CFF8C"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="loginPage"
+        android:stateListAnimator="@null"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="#FF0E182D"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:cornerRadius="50dp"/>
+
+</LinearLayout>
