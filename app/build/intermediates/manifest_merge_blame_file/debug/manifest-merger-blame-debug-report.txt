@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.onbudget"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Nova\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.onbudget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Nova\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Nova\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.onbudget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Nova\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Nova\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:5:5-64:19
+18        android:allowBackup="true"
+18-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Nova\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.OnBudget" >
+29-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:13:9-46
+30        <activity
+30-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:15:9-21:20
+31            android:name="com.example.onbudget.SettingsIntent"
+31-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:16:13-43
+32            android:exported="false" >
+32-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:17:13-37
+33            <meta-data
+33-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:18:13-20:36
+34                android:name="android.app.lib_name"
+34-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:19:17-52
+35                android:value="" />
+35-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:20:17-33
+36        </activity>
+37        <activity
+37-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:22:9-28:20
+38            android:name="com.example.onbudget.Result"
+38-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:23:13-35
+39            android:exported="false" >
+39-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:24:13-37
+40            <meta-data
+40-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:18:13-20:36
+41                android:name="android.app.lib_name"
+41-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:19:17-52
+42                android:value="" />
+42-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:20:17-33
+43        </activity>
+44        <activity
+44-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:29:9-35:20
+45            android:name="com.example.onbudget.HomePage"
+45-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:30:13-37
+46            android:exported="false" >
+46-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:18:13-20:36
+48                android:name="android.app.lib_name"
+48-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:19:17-52
+49                android:value="" />
+49-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:20:17-33
+50        </activity>
+51        <activity
+51-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:37:9-43:20
+52            android:name="com.example.onbudget.SignupPage"
+52-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:38:13-39
+53            android:exported="false" >
+53-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:39:13-37
+54            <meta-data
+54-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:18:13-20:36
+55                android:name="android.app.lib_name"
+55-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:19:17-52
+56                android:value="" />
+56-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:20:17-33
+57        </activity>
+58        <activity
+58-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:44:9-50:20
+59            android:name="com.example.onbudget.LoginPage"
+59-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:45:13-38
+60            android:exported="false" >
+60-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:46:13-37
+61            <meta-data
+61-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:18:13-20:36
+62                android:name="android.app.lib_name"
+62-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:19:17-52
+63                android:value="" />
+63-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:20:17-33
+64        </activity>
+65        <activity
+65-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:51:9-63:20
+66            android:name="com.example.onbudget.MainActivity"
+66-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:52:13-41
+67            android:exported="true" >
+67-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:53:13-36
+68            <intent-filter>
+68-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:54:13-58:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:55:17-69
+69-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:55:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:57:17-77
+71-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:57:27-74
+72            </intent-filter>
+73
+74            <meta-data
+74-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:18:13-20:36
+75                android:name="android.app.lib_name"
+75-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:19:17-52
+76                android:value="" />
+76-->C:\Users\Nova\Downloads\OnBudget\OnBudget\app\src\main\AndroidManifest.xml:20:17-33
+77        </activity>
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nova\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nova\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+81            android:authorities="com.example.onbudget.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nova\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nova\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nova\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nova\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nova\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nova\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nova\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nova\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+89        </provider>
+90    </application>
+91
+92</manifest>
